@@ -1,13 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
-import Home from './components/Home';
-import Fade from './components/Fade';
-import Flip from './components/Flip';
-import Rotate from './components/Rotate';
-import Zoom from './components/Zoom';
-import Bounce from './components/Bounce';
-import Roll from './components/Roll';
+import { Home, Fade, Flip, Rotate, Zoom, Bounce, Roll } from './components';
 
 import './styles.css';
 
