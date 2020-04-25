@@ -11,7 +11,7 @@ export default function App() {
       <div className="App">
         <h1>React Reveal Playground</h1>
 
-        <ul>
+        <ul className="menu-list">
           <li>
             <Link to="/">Home</Link>
           </li>
