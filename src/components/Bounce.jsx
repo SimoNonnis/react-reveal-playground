@@ -1,5 +1,5 @@
 import React from 'react';
 
-const Bounce = () => <h2>Bounce</h2>;
+const BouncePage = () => <h2>Bounce</h2>;
 
-export default Bounce;
+export default BouncePage;

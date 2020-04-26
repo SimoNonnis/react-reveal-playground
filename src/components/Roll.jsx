@@ -1,5 +1,5 @@
 import React from 'react';
 
-const Roll = () => <h2>Roll</h2>;
+const RollPage = () => <h2>Roll</h2>;
 
-export default Roll;
+export default RollPage;

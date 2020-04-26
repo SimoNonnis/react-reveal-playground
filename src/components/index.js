@@ -1,9 +1,17 @@
-import Home from './Home';
-import Fade from './Fade';
-import Flip from './Flip';
-import Rotate from './Rotate';
-import Zoom from './Zoom';
-import Bounce from './Bounce';
-import Roll from './Roll';
+import HomePage from './Home';
+import FadePage from './Fade';
+import FlipPage from './Flip';
+import RotatePage from './Rotate';
+import ZoomPage from './Zoom';
+import BouncePage from './Bounce';
+import RollPage from './Roll';
 
-export { Home, Fade, Flip, Rotate, Zoom, Bounce, Roll };
+export {
+  HomePage,
+  FadePage,
+  FlipPage,
+  RotatePage,
+  ZoomPage,
+  BouncePage,
+  RollPage,
+};

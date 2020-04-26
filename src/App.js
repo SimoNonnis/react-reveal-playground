@@ -1,7 +1,15 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
-import { Home, Fade, Flip, Rotate, Zoom, Bounce, Roll } from './components';
+import {
+  HomePage,
+  FadePage,
+  FlipPage,
+  RotatePage,
+  ZoomPage,
+  BouncePage,
+  RollPage,
+} from './components';
 
 import './styles.css';
 
@@ -38,25 +46,25 @@ export default function App() {
 
       <Switch>
         <Route exact path="/">
-          <Home />
+          <HomePage />
         </Route>
         <Route path="/fade">
-          <Fade />
+          <FadePage />
         </Route>
         <Route path="/flip">
-          <Flip />
+          <FlipPage />
         </Route>
         <Route path="/rotate">
-          <Rotate />
+          <RotatePage />
         </Route>
         <Route path="/zoom">
-          <Zoom />
+          <ZoomPage />
         </Route>
         <Route path="/bounce">
-          <Bounce />
+          <BouncePage />
         </Route>
         <Route path="/roll">
-          <Roll />
+          <RollPage />
         </Route>
       </Switch>
     </Router>
