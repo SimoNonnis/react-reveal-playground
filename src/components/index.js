@@ -4,6 +4,7 @@ import FlipPage from './Flip';
 import RotatePage from './Rotate';
 import ZoomPage from './Zoom';
 import BouncePage from './Bounce';
+import SlidePage from './Slide';
 import RollPage from './Roll';
 
 export {
@@ -13,5 +14,6 @@ export {
   RotatePage,
   ZoomPage,
   BouncePage,
+  SlidePage,
   RollPage,
 };

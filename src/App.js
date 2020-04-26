@@ -8,6 +8,7 @@ import {
   RotatePage,
   ZoomPage,
   BouncePage,
+  SlidePage,
   RollPage,
 } from './components';
 
@@ -39,6 +40,9 @@ export default function App() {
             <Link to="/bounce">Bounce</Link>
           </li>
           <li>
+            <Link to="/slide">Slide</Link>
+          </li>
+          <li>
             <Link to="/roll">Roll</Link>
           </li>
         </ul>
@@ -62,6 +66,9 @@ export default function App() {
         </Route>
         <Route path="/bounce">
           <BouncePage />
+        </Route>
+        <Route path="/slide">
+          <SlidePage />
         </Route>
         <Route path="/roll">
           <RollPage />
